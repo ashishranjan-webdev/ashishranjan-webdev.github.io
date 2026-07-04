@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  background-color: #111;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: black;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  color: red;
+}
+
+.btn {
+  background: red;
+  border: none;
+  padding: 8px 15px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Banner */
+.banner {
+  background: url('https://via.placeholder.com/1200x500') no-repeat center center/cover;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
+
+.banner h2 {
+  font-size: 40px;
+}
+
+/* Rows */
+.row {
+  margin-left: 20px;
+}
+
+.row-posters {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.row-posters img {
+  width: 200px;
+  margin: 10px;
+  transition: transform 0.3s;
+}
+
+.row-posters img:hover {
+  transform: scale(1.1);
+}
