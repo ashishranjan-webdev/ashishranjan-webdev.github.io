@@ -53,6 +53,48 @@ button:hover {
 }
 
 .cls{
-    width: 600px;
-    justify-self: center;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+}
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .hero img {
+    width: 220px;
+    height: auto;
+  }
+
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+  }
 }
